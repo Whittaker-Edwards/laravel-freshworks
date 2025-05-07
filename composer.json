@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "illuminate/support": "^6|^7|^8|^9|^10",
         "guzzlehttp/guzzle": "7.4.5"
     },
@@ -46,6 +46,11 @@
             "aliases": {
                 "Freshworks": "CodeGreenCreative\\Freshworks\\FreshworksFacade"
             }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     }
 }
