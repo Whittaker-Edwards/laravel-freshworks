@@ -1,12 +1,12 @@
 {
-    "name": "codegreencreative/laravel-freshworks",
+    "name": "whittaker-edwards/laravel-freshworks",
     "description": "A Laravel wrapper for Freshworks API",
     "keywords": ["laravel", "freshworks", "freshsales", "crm", "api"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jesse Vista",
-            "email": "jesse@codegreencreative.com"
+            "name": "Ryan Whittaker",
+            "email": "ryan@whittakeredwards.com"
         }
     ],
     "require": {
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeGreenCreative\\Freshworks\\": "src/"
+            "WhittakerEdwards\\Freshworks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CodeGreenCreative\\Freshworks\\Tests\\": "tests"
+            "WhittakerEdwards\\Freshworks\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -41,10 +41,10 @@
         },
         "laravel": {
             "providers": [
-                "CodeGreenCreative\\Freshworks\\FreshworksServiceProvider"
+                "WhittakerEdwards\\Freshworks\\FreshworksServiceProvider"
             ],
             "aliases": {
-                "Freshworks": "CodeGreenCreative\\Freshworks\\FreshworksFacade"
+                "Freshworks": "WhittakerEdwards\\Freshworks\\FreshworksFacade"
             }
         }
     },
