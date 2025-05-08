@@ -6,8 +6,29 @@ See [Freshworks CRM API](https://developers.freshworks.com/crm/api) documentatio
 
 ## Installation
 
+Since this is a private repository, first add the following to your local `composer.json` file and ensure you have proper privileges on your development and production servers to access the repository
 ```shell
-composer require codegreencreative/laravel-freshworks
+"repositories": [
+     { 
+         "type": "vcs", 
+         "url": "https://github.com/whittaker-edwards/laravel-freshworks"
+     }
+ ],
+```
+
+Then add the following below to your `composer.json` require section:
+```shell
+"require": {
+   ...
+   "whittaker-edwards/laravel-freshworks": "^0.1",
+   ...
+}
+```
+
+Run the following to update and install the package
+```shell
+composer update
+composer install
 ```
 
 ## Configuration

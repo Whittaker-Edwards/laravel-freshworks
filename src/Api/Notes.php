@@ -1,9 +1,9 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Api;
+namespace Whittaker\Freshworks\Api;
 
-use CodeGreenCreative\Freshworks\Client;
-use CodeGreenCreative\Freshworks\Traits\PerformsCrudOperations;
+use Whittaker\Freshworks\Client;
+use Whittaker\Freshworks\Traits\PerformsCrudOperations;
 
 class Notes extends Client
 {

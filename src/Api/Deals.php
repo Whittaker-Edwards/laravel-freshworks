@@ -1,14 +1,14 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Api;
+namespace Whittaker\Freshworks\Api;
 
-use CodeGreenCreative\Freshworks\Client;
-use CodeGreenCreative\Freshworks\Traits\CanBeForgotten;
-use CodeGreenCreative\Freshworks\Traits\CanBulkDestroy;
-use CodeGreenCreative\Freshworks\Traits\CanCloneItself;
-use CodeGreenCreative\Freshworks\Traits\CanPaginate;
-use CodeGreenCreative\Freshworks\Traits\HasFilters;
-use CodeGreenCreative\Freshworks\Traits\PerformsCrudOperations;
+use Whittaker\Freshworks\Client;
+use Whittaker\Freshworks\Traits\CanBeForgotten;
+use Whittaker\Freshworks\Traits\CanBulkDestroy;
+use Whittaker\Freshworks\Traits\CanCloneItself;
+use Whittaker\Freshworks\Traits\CanPaginate;
+use Whittaker\Freshworks\Traits\HasFilters;
+use Whittaker\Freshworks\Traits\PerformsCrudOperations;
 
 class Deals extends Client
 {

@@ -2,7 +2,7 @@
 
 namespace Whittaker\Freshworks;
 
-use CodeGreenCreative\Freshworks\Exceptions\FreshworksException;
+use Whittaker\Freshworks\Exceptions\FreshworksException;
 use Exception;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\RequestException;
@@ -42,7 +42,7 @@ class Client
      * @param string $uri
      * @param array  $options
      *
-     * @return \CodeGreenCreative\Freshworks\Client
+     * @return \Whittaker\Freshworks\Client
      */
     public function go(string $method, string $uri = '', array $options = []): object
     {

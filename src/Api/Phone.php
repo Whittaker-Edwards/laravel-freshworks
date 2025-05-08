@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Api;
+namespace Whittaker\Freshworks\Api;
 
-use CodeGreenCreative\Freshworks\Client;
+use Whittaker\Freshworks\Client;
 
 class Phone extends Client
 {

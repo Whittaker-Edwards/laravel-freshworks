@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Api;
+namespace Whittaker\Freshworks\Api;
 
-use CodeGreenCreative\Freshworks\Client;
+use Whittaker\Freshworks\Client;
 use Illuminate\Support\Str;
 
 class Configuration extends Client
