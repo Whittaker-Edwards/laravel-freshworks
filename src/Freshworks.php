@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks;
+namespace Whittaker\Freshworks;
 
 use Illuminate\Support\Str;
 
@@ -15,7 +15,7 @@ class Freshworks
     public function __call(string $name, array $arguments = [])
     {
         try {
-            $name = '\\CodeGreenCreative\\Freshworks\\Api\\' . Str::studly($name);
+            $name = '\\Whittaker\\Freshworks\\Api\\' . Str::studly($name);
             if (class_exists($name)) {
                 return new $name;
             }

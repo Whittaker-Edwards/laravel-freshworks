@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Tests;
+namespace Whittaker\Freshworks\Tests;
 
-use CodeGreenCreative\Freshworks\FreshworksServiceProvider;
+use Whittaker\Freshworks\FreshworksServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

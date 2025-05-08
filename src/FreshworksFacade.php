@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks;
+namespace Whittaker\Freshworks;
 
 use Illuminate\Support\Facades\Facade;
 

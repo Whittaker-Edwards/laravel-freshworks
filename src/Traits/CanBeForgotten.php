@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Traits;
+namespace Whittaker\Freshworks\Traits;
 
 trait CanBeForgotten
 {

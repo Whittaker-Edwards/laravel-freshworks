@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks\Exceptions;
+namespace Whittaker\Freshworks\Exceptions;
 
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Response;

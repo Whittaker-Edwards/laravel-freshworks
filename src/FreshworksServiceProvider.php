@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks;
+namespace Whittaker\Freshworks;
 
 /**
  * The service provider for laravel-freshworks

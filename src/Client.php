@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeGreenCreative\Freshworks;
+namespace Whittaker\Freshworks;
 
 use CodeGreenCreative\Freshworks\Exceptions\FreshworksException;
 use Exception;
