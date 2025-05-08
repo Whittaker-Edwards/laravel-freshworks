@@ -1,6 +1,6 @@
 {
     "name": "whittaker-edwards/laravel-freshworks",
-    "description": "A Laravel wrapper for Freshworks API",
+    "description": "A Laravel 12.0 wrapper for Freshworks API",
     "keywords": ["laravel", "freshworks", "freshsales", "crm", "api"],
     "license": "MIT",
     "authors": [
@@ -11,24 +11,24 @@
     ],
     "require": {
         "php": ">=8.0",
-        "illuminate/support": "^6|^7|^8|^9|^10",
+        "laravel/framework": "^12.0",
         "guzzlehttp/guzzle": "^7.8.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.5|^9.0",
-        "nunomaduro/collision": "^5.3",
-        "orchestra/testbench": "^6.15",
-        "pestphp/pest": "^1.18",
-        "pestphp/pest-plugin-laravel": "^1.1"
+        "phpunit/phpunit": "^10.5.35|^11.5.3|^12.0.1",
+        "nunomaduro/collision": "^8.0",
+        "orchestra/testbench-core": "^10.0.0",
+        "pestphp/pest": "^3.0",
+        "pestphp/pest-plugin-laravel": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "WhittakerEdwards\\Freshworks\\": "src/"
+            "Whittaker\\Freshworks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WhittakerEdwards\\Freshworks\\Tests\\": "tests"
+            "Whittaker\\Freshworks\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -41,10 +41,10 @@
         },
         "laravel": {
             "providers": [
-                "WhittakerEdwards\\Freshworks\\FreshworksServiceProvider"
+                "Whittaker\\Freshworks\\FreshworksServiceProvider"
             ],
             "aliases": {
-                "Freshworks": "WhittakerEdwards\\Freshworks\\FreshworksFacade"
+                "Freshworks": "Whittaker\\Freshworks\\FreshworksFacade"
             }
         }
     },
