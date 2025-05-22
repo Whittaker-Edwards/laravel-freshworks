@@ -97,6 +97,17 @@ $views = \Freshworks::contacts()->filters()->toObject();
    'identifier' => 'john.doe@example.com',
    'url' => 'http://example.com/pricing'
 ]));
+
+// Update an existing Freshdesk user with custom fields:
+Freshworks::contacts()->update($this->freshworks_contact_id, [
+  'identifier' => $this->id,
+  'email' => $this->email,
+  'custom_field' => [
+    'cf_name' => $this->name,
+    'cf_phone_number' => $this->phone,
+    'cf_webapp_id' => $this->id
+  ]
+]);
 ```
 
 See [Freshworks CRM API](https://developers.freshworks.com/crm/api) documentation for details on what can be done with their API.
